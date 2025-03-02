@@ -33,7 +33,7 @@ function App() {
             <input
               type="text"
               placeholder="Enter your URL here"
-              className="border border-black px-2 py-1 w-[400px]"
+              className="border border-black px-2 py-1 md:w-[400px]"
               value={longUrl}
               onChange={(e) => setLongUrl(e.target.value)}
             />
